@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify, abort
 from werkzeug.exceptions import HTTPException
 
 from config import load_config
-from server import TaskServer
+from server.server import TaskServer
 
 # Configure logging
 logging.basicConfig(
